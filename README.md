@@ -9,7 +9,7 @@ Download [package.json](package.json)
 ```
 {
   "name": "package.json-boilerplate",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The inspirational package.json boilerplate",
   "main": "index.js",
   "license": "MIT",

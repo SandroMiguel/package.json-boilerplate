@@ -1,0 +1,9 @@
+{
+  "name": "package.json-boilerplate",
+  "version": "1.0.0",
+  "description": "The inspirational package.json boilerplate",
+  "main": "index.js",
+  "repository": "git@github.com:SandroMiguel/package.json-boilerplate.git",
+  "author": "SandroMiguel <sandromiguel@sandromiguel.com>",
+  "license": "MIT"
+}

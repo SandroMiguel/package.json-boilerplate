@@ -12,9 +12,23 @@ Download [package.json](package.json)
   "version": "1.0.0",
   "description": "The inspirational package.json boilerplate",
   "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Sandro Miguel Marques",
+    "email": "sandromiguel@sandromiguel.com",
+    "url": "http://sandromiguel.com"
+  },
+  "keywords": [
+    "package.json",
+    "boilerplate"
+  ],
   "repository": "git@github.com:SandroMiguel/package.json-boilerplate.git",
-  "author": "SandroMiguel <sandromiguel@sandromiguel.com>",
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/SandroMiguel/package.json-boilerplate/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
 ```
 

@@ -1,4 +1,4 @@
-# ***package.json*** boilerplate
+# **_package.json_** boilerplate
 
 The inspirational package.json boilerplate
 
@@ -9,7 +9,7 @@ Download [package.json](package.json)
 ```
 {
   "name": "package.json-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The inspirational package.json boilerplate",
   "main": "index.js",
   "license": "MIT",
@@ -22,7 +22,10 @@ Download [package.json](package.json)
     "package.json",
     "boilerplate"
   ],
-  "repository": "git@github.com:SandroMiguel/package.json-boilerplate.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SandroMiguel/package.json-boilerplate.git"
+  },
   "bugs": {
     "url": "https://github.com/SandroMiguel/package.json-boilerplate/issues"
   },
@@ -33,12 +36,15 @@ Download [package.json](package.json)
 ```
 
 ## Contributing
+
 Want to contribute? All contributions are welcome. Read the [contributing guide](CONTRIBUTING.md).
 
 ## Questions
+
 If you have questions tweet me at [@sandro_m_m](https://twitter.com/sandro_m_m) or [open an issue](../../issues/new).
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 **~ sharing is caring ~**

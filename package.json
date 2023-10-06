@@ -1,6 +1,6 @@
 {
   "name": "package.json-boilerplate",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "The inspirational package.json boilerplate",
   "main": "index.js",
   "license": "MIT",
@@ -21,6 +21,35 @@
     "url": "https://github.com/SandroMiguel/package.json-boilerplate/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --mode development --watch --progress",
+    "lint": "eslint src --ext js",
+    "lint:fix": "eslint src --ext js --fix",
+    "format": "prettier --write 'src/**/*.{js,json,css}'",
+    "format:php": "prettier",
+    "stylelint": "stylelint './src/**/*.{css,scss}'",
+    "stylelint:fix": "stylelint './src/**/*.{css,scss}' --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:phpunit": "./vendor/bin/phpunit --colors=always",
+    "e2e": "cypress open",
+    "increment-build": "node buildIncrementer.js",
+    "build": "yarn increment-build && webpack --mode production --progress",
+    "release": "git pull && yarn build && git add . && git commit -m 'build to production' --no-verify && git push",
+    "sync:cecilia-css": "rsync -r -t --progress --delete ../cecilia-css/ ./node_modules/cecilia-css/",
+    "sync:ubiquitous-components": "rsync -r -t --progress --delete ../ubiquitous-components/lib/ ./node_modules/ubiquitous-components/lib/ && yarn start",
+    "sync:verum-php": "rsync -r -t --progress --delete ../verum-php/src/ ./vendor/sandromiguel/verum-php/src/",
+    "upgrade-deps": "yarn upgrade-interactive --latest",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "packageManager": "yarn@3.6.4",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog",
+      "disableScopeLowerCase": true
+    }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
   }
 }

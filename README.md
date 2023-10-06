@@ -66,9 +66,12 @@ If you find this boilerplate helpful, don't forget to give it a star!
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog",
+      "path": "cz-conventional-changelog",
       "disableScopeLowerCase": true
     }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
   }
 }
 ```

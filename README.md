@@ -16,7 +16,7 @@ This is my personal `package.json` boilerplate for JavaScript projects using Web
 Download the latest `package.json`:
 
 ```bash
-curl -o package.json https://raw.githubusercontent.com/SandroMiguel/package.json-boilerplate/main/package.json
+curl -o package.json https://raw.githubusercontent.com/SandroMiguel/package.json-boilerplate/master/package.json
 ```
 
 Or simply copy and paste the contents of [`package.json`](package.json) into your project.

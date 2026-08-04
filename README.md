@@ -1,25 +1,35 @@
 # **_package.json_** boilerplate
 
-This is a customized `package.json` boilerplate tailored for JavaScript projects using webpack, eslint, prettier, cypress, and more. It provides a well-structured foundation, saving you time on configuring essential tools and dependencies.
+This is my personal `package.json` boilerplate for JavaScript projects using Webpack, ESLint, Prettier, Cypress, Jest, Storybook and other common tools. Feel free to use it as a starting point or as inspiration for your own projects.
 
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
 ## Features
 
 - Pre-configured `package.json` optimized for JavaScript projects.
-- Includes configurations for Webpack, ESlint, Prettier, Cypress, and more.
+- Includes common scripts for Webpack, ESLint, Prettier, Cypress, Jest, Storybook, and more.
 - Designed to streamline the setup process for your projects.
-- Open-source and available for everyone to use and customize.
+- Open source and available for everyone to use and customize.
 
 ## Usage
 
-1. Download the [`package.json`](package.json) file from this repository.
-2. Customize the downloaded `package.json` file to match your project's requirements.
-3. Use it as a starting point for your JavaScript projects with ease.
+Download the latest `package.json`:
+
+```bash
+curl -o package.json https://raw.githubusercontent.com/SandroMiguel/package.json-boilerplate/main/package.json
+```
+
+Or simply copy and paste the contents of [`package.json`](package.json) into your project.
+
+Then customize it to match your project's requirements.
 
 If you find this boilerplate helpful, don't forget to give it a star!
 
-```
+## Example
+
+Below is a simplified example of the boilerplate:
+
+```json
 {
   "name": "package.json-boilerplate",
   "version": "1.0.0",
@@ -31,10 +41,7 @@ If you find this boilerplate helpful, don't forget to give it a star!
     "email": "sandromiguel@sandromiguel.com",
     "url": "http://sandromiguel.com"
   },
-  "keywords": [
-    "package.json",
-    "boilerplate"
-  ],
+  "keywords": ["package.json", "boilerplate"],
   "repository": {
     "type": "git",
     "url": "https://github.com/SandroMiguel/package.json-boilerplate.git"
@@ -82,10 +89,10 @@ Want to contribute? All contributions are welcome. Read the [contributing guide]
 
 ## Questions
 
-If you have questions tweet me at [@sandro_m_m](https://twitter.com/sandro_m_m) or [open an issue](../../issues/new).
+If you have questions, reach out on Twitter at [@sandro_m_m](https://twitter.com/sandro_m_m) or [open an issue](../../issues/new).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 **~ sharing is caring ~**
